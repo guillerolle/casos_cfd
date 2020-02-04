@@ -1,7 +1,0 @@
-blockMesh - Crear malla original (blockMeshDict)
-extrudeMesh - Hacerla axisimetrica (extrudeMeshDict)
-collapseEdges -overwrite - Reparar caras rotas de la malla (collapseDict)
-simpleFoam | tee log.simpleFoam - No convergió en 2000 iteraciones
-foamLog log.simpleFoam
-gnuplot - Grafica simulacion no convergente simpleFoam
-
