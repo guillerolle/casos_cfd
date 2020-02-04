@@ -47,9 +47,14 @@ boundaryField
         type            zeroGradient;
     }
 
-    frontAndBack
+    front
     {
-        type            empty;
+        type            wedge;
+    }
+
+    back
+    {
+	type		wedge;
     }
 }
 

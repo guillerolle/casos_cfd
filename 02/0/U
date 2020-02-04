@@ -46,9 +46,13 @@ boundaryField
 	value		uniform (0 0 0);
     }
 
-    frontAndBack
+    front
     {
-        type            empty;
+        type            wedge;
+    }
+    back
+    {
+	type		wedge;
     }
 }
 
