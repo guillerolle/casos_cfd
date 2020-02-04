@@ -1,0 +1,3 @@
+blockMesh - Crear malla original (blockMeshDict)
+extrudeMesh - Hacerla axisimetrica (extrudeMeshDict)
+collapseEdges - Reparar caras rotas de la malla (collapseDict)
