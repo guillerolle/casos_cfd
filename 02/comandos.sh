@@ -10,5 +10,5 @@ collapseEdges -overwrite
 simpleFoam | tee log.simpleFoam
 foamLog log.simpleFoam
 
-# gnuplot - Grafica simulacion no convergente simpleFoam
-
+# gnuplot - Grafica simulacion simpleFoam
+gnuplot --persist graficar_res.gp
