@@ -23,7 +23,7 @@ startTime       0;
 
 stopAt          endTime;
 
-endTime         2000;
+endTime         1000;
 
 deltaT         	1; // Solamente sirve para enumerar las iteraciones. No afecta a la simulación
 

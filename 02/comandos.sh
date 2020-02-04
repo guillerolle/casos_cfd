@@ -1,5 +1,11 @@
 #!/bin/sh
 
+# Resetear caso completo
+foamListTimes -rm
+rm -r postProcessing
+rm -r logs
+rm -r constant/polyMesh
+
 # Crear malla original (blockMeshDict)
 blockMesh
 # Hacerla axisimetrica (extrudeMeshDict)
