@@ -28,6 +28,9 @@ log.*
 
 **/logs
 
+# archivo que se genera con collapseEdges
+
+**/0/pointPriority
 
 # paraview/ParaFoam
 
