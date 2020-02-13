@@ -3178,12 +3178,7 @@
       </Property>
       <Property name="SelectionPointFieldDataArrayName" id="11125.SelectionPointFieldDataArrayName" number_of_elements="1">
         <Element index="0" value="T"/>
-        <Domain name="array_list" id="11125.SelectionPointFieldDataArrayName.array_list">
-          <String text="T"/>
-          <String text="U"/>
-          <String text="arc_length"/>
-          <String text="vtkValidPointMask"/>
-        </Domain>
+        <Domain name="array_list" id="11125.SelectionPointFieldDataArrayName.array_list"/>
       </Property>
       <Property name="SelectionVisibility" id="11125.SelectionVisibility" number_of_elements="1">
         <Element index="0" value="1"/>
@@ -3247,12 +3242,7 @@
         <Element index="2" value=""/>
         <Element index="3" value=""/>
         <Element index="4" value=""/>
-        <Domain name="array_list" id="11125.ColorArrayName.array_list">
-          <String text="T"/>
-          <String text="U"/>
-          <String text="arc_length"/>
-          <String text="vtkValidPointMask"/>
-        </Domain>
+        <Domain name="array_list" id="11125.ColorArrayName.array_list"/>
       </Property>
       <Property name="ColorByLODIndex" id="11125.ColorByLODIndex" number_of_elements="1">
         <Element index="0" value="0"/>
@@ -3305,10 +3295,6 @@
         <Element index="0" value="None"/>
         <Domain name="array_list" id="11125.GlyphTableIndexArray.array_list">
           <String text="None"/>
-          <String text="T"/>
-          <String text="U"/>
-          <String text="arc_length"/>
-          <String text="vtkValidPointMask"/>
         </Domain>
       </Property>
       <Property name="GlyphType" id="11125.GlyphType" number_of_elements="1">
@@ -3395,12 +3381,7 @@
       </Property>
       <Property name="OSPRayScaleArray" id="11125.OSPRayScaleArray" number_of_elements="1">
         <Element index="0" value="T"/>
-        <Domain name="array_list" id="11125.OSPRayScaleArray.array_list">
-          <String text="T"/>
-          <String text="U"/>
-          <String text="arc_length"/>
-          <String text="vtkValidPointMask"/>
-        </Domain>
+        <Domain name="array_list" id="11125.OSPRayScaleArray.array_list"/>
       </Property>
       <Property name="OSPRayScaleFunction" id="11125.OSPRayScaleFunction" number_of_elements="1">
         <Proxy value="11067"/>
@@ -3427,18 +3408,11 @@
         <Element index="2" value=""/>
         <Element index="3" value="0"/>
         <Element index="4" value="T"/>
-        <Domain name="array_list" id="11125.OpacityArray.array_list">
-          <String text="T"/>
-          <String text="U"/>
-          <String text="arc_length"/>
-          <String text="vtkValidPointMask"/>
-        </Domain>
+        <Domain name="array_list" id="11125.OpacityArray.array_list"/>
       </Property>
       <Property name="OpacityArrayComponent" id="11125.OpacityArrayComponent" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="comps" id="11125.OpacityArrayComponent.comps">
-          <Entry value="0" text=""/>
-        </Domain>
+        <Domain name="comps" id="11125.OpacityArrayComponent.comps"/>
       </Property>
       <Property name="OpacityByArray" id="11125.OpacityByArray" number_of_elements="1">
         <Element index="0" value="0"/>
@@ -3512,9 +3486,7 @@
       </Property>
       <Property name="ScaleArrayComponent" id="11125.ScaleArrayComponent" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="comps" id="11125.ScaleArrayComponent.comps">
-          <Entry value="0" text=""/>
-        </Domain>
+        <Domain name="comps" id="11125.ScaleArrayComponent.comps"/>
       </Property>
       <Property name="ScaleByArray" id="11125.ScaleByArray" number_of_elements="1">
         <Element index="0" value="0"/>
@@ -3559,20 +3531,12 @@
         <Element index="0" value="U"/>
         <Domain name="array_list" id="11125.SelectOrientationVectors.array_list">
           <String text="None"/>
-          <String text="T"/>
-          <String text="U"/>
-          <String text="arc_length"/>
-          <String text="vtkValidPointMask"/>
         </Domain>
       </Property>
       <Property name="SelectScaleArray" id="11125.SelectScaleArray" number_of_elements="1">
         <Element index="0" value="None"/>
         <Domain name="array_list" id="11125.SelectScaleArray.array_list">
           <String text="None"/>
-          <String text="T"/>
-          <String text="U"/>
-          <String text="arc_length"/>
-          <String text="vtkValidPointMask"/>
         </Domain>
       </Property>
       <Property name="SelectionCellLabelBold" id="11125.SelectionCellLabelBold" number_of_elements="1">
@@ -3721,12 +3685,7 @@
         <Element index="2" value=""/>
         <Element index="3" value="0"/>
         <Element index="4" value="T"/>
-        <Domain name="array_list" id="11125.SetScaleArray.array_list">
-          <String text="T"/>
-          <String text="U"/>
-          <String text="arc_length"/>
-          <String text="vtkValidPointMask"/>
-        </Domain>
+        <Domain name="array_list" id="11125.SetScaleArray.array_list"/>
       </Property>
       <Property name="ShaderPreset" id="11125.ShaderPreset" number_of_elements="1">
         <Element index="0" value="1"/>
@@ -4665,66 +4624,54 @@
         <Element index="2" value="0"/>
         <Element index="3" value="0"/>
         <Element index="4" value="T"/>
-        <Element index="5" value="0.89"/>
-        <Element index="6" value="0.1"/>
-        <Element index="7" value="0.11"/>
+        <Element index="5" value="0.889998"/>
+        <Element index="6" value="0.100008"/>
+        <Element index="7" value="0.110002"/>
         <Element index="8" value="U_X"/>
-        <Element index="9" value="0.22"/>
-        <Element index="10" value="0.49"/>
-        <Element index="11" value="0.72"/>
+        <Element index="9" value="0.220005"/>
+        <Element index="10" value="0.489998"/>
+        <Element index="11" value="0.719997"/>
         <Element index="12" value="U_Y"/>
-        <Element index="13" value="0.3"/>
-        <Element index="14" value="0.69"/>
-        <Element index="15" value="0.29"/>
+        <Element index="13" value="0.300008"/>
+        <Element index="14" value="0.689998"/>
+        <Element index="15" value="0.289998"/>
         <Element index="16" value="U_Z"/>
         <Element index="17" value="0.6"/>
-        <Element index="18" value="0.31"/>
-        <Element index="19" value="0.64"/>
+        <Element index="18" value="0.310002"/>
+        <Element index="19" value="0.639994"/>
         <Element index="20" value="U_Magnitude"/>
         <Element index="21" value="1"/>
-        <Element index="22" value="0.5"/>
+        <Element index="22" value="0.500008"/>
         <Element index="23" value="0"/>
         <Element index="24" value="vtkValidPointMask"/>
-        <Element index="25" value="0.65"/>
-        <Element index="26" value="0.34"/>
-        <Element index="27" value="0.16"/>
+        <Element index="25" value="0.650004"/>
+        <Element index="26" value="0.340002"/>
+        <Element index="27" value="0.160006"/>
         <Element index="28" value="Points_X"/>
         <Element index="29" value="0"/>
         <Element index="30" value="0"/>
         <Element index="31" value="0"/>
         <Element index="32" value="Points_Y"/>
-        <Element index="33" value="0.89"/>
-        <Element index="34" value="0.1"/>
-        <Element index="35" value="0.11"/>
+        <Element index="33" value="0.889998"/>
+        <Element index="34" value="0.100008"/>
+        <Element index="35" value="0.110002"/>
         <Element index="36" value="Points_Z"/>
-        <Element index="37" value="0.22"/>
-        <Element index="38" value="0.49"/>
-        <Element index="39" value="0.72"/>
+        <Element index="37" value="0.220005"/>
+        <Element index="38" value="0.489998"/>
+        <Element index="39" value="0.719997"/>
         <Element index="40" value="Points_Magnitude"/>
-        <Element index="41" value="0.3"/>
-        <Element index="42" value="0.69"/>
-        <Element index="43" value="0.29"/>
-        <Domain name="array_list" id="11173.SeriesColor.array_list">
-          <String text="arc_length"/>
-          <String text="T"/>
-          <String text="U_X"/>
-          <String text="U_Y"/>
-          <String text="U_Z"/>
-          <String text="U_Magnitude"/>
-          <String text="vtkValidPointMask"/>
-          <String text="Points_X"/>
-          <String text="Points_Y"/>
-          <String text="Points_Z"/>
-          <String text="Points_Magnitude"/>
-        </Domain>
+        <Element index="41" value="0.300008"/>
+        <Element index="42" value="0.689998"/>
+        <Element index="43" value="0.289998"/>
+        <Domain name="array_list" id="11173.SeriesColor.array_list"/>
       </Property>
       <Property name="SeriesLabel" id="11173.SeriesLabel" number_of_elements="22">
         <Element index="0" value="arc_length"/>
         <Element index="1" value="arc_length"/>
         <Element index="2" value="T"/>
-        <Element index="3" value="T"/>
+        <Element index="3" value="Perfil de concentración"/>
         <Element index="4" value="U_X"/>
-        <Element index="5" value="U_X"/>
+        <Element index="5" value="Velocidad X"/>
         <Element index="6" value="U_Y"/>
         <Element index="7" value="U_Y"/>
         <Element index="8" value="U_Z"/>
@@ -4741,207 +4688,135 @@
         <Element index="19" value="Points_Z"/>
         <Element index="20" value="Points_Magnitude"/>
         <Element index="21" value="Points_Magnitude"/>
-        <Domain name="array_list" id="11173.SeriesLabel.array_list">
-          <String text="arc_length"/>
-          <String text="T"/>
-          <String text="U_X"/>
-          <String text="U_Y"/>
-          <String text="U_Z"/>
-          <String text="U_Magnitude"/>
-          <String text="vtkValidPointMask"/>
-          <String text="Points_X"/>
-          <String text="Points_Y"/>
-          <String text="Points_Z"/>
-          <String text="Points_Magnitude"/>
-        </Domain>
+        <Domain name="array_list" id="11173.SeriesLabel.array_list"/>
       </Property>
       <Property name="SeriesLabelPrefix" id="11173.SeriesLabelPrefix" number_of_elements="1">
         <Element index="0" value=""/>
       </Property>
       <Property name="SeriesLineStyle" id="11173.SeriesLineStyle" number_of_elements="22">
-        <Element index="0" value="arc_length"/>
+        <Element index="0" value="Points_Magnitude"/>
         <Element index="1" value="1"/>
-        <Element index="2" value="T"/>
+        <Element index="2" value="Points_X"/>
         <Element index="3" value="1"/>
-        <Element index="4" value="U_X"/>
+        <Element index="4" value="Points_Y"/>
         <Element index="5" value="1"/>
-        <Element index="6" value="U_Y"/>
+        <Element index="6" value="Points_Z"/>
         <Element index="7" value="1"/>
-        <Element index="8" value="U_Z"/>
+        <Element index="8" value="T"/>
         <Element index="9" value="1"/>
         <Element index="10" value="U_Magnitude"/>
         <Element index="11" value="1"/>
-        <Element index="12" value="vtkValidPointMask"/>
+        <Element index="12" value="U_X"/>
         <Element index="13" value="1"/>
-        <Element index="14" value="Points_X"/>
+        <Element index="14" value="U_Y"/>
         <Element index="15" value="1"/>
-        <Element index="16" value="Points_Y"/>
+        <Element index="16" value="U_Z"/>
         <Element index="17" value="1"/>
-        <Element index="18" value="Points_Z"/>
+        <Element index="18" value="arc_length"/>
         <Element index="19" value="1"/>
-        <Element index="20" value="Points_Magnitude"/>
+        <Element index="20" value="vtkValidPointMask"/>
         <Element index="21" value="1"/>
-        <Domain name="array_list" id="11173.SeriesLineStyle.array_list">
-          <String text="arc_length"/>
-          <String text="T"/>
-          <String text="U_X"/>
-          <String text="U_Y"/>
-          <String text="U_Z"/>
-          <String text="U_Magnitude"/>
-          <String text="vtkValidPointMask"/>
-          <String text="Points_X"/>
-          <String text="Points_Y"/>
-          <String text="Points_Z"/>
-          <String text="Points_Magnitude"/>
-        </Domain>
+        <Domain name="array_list" id="11173.SeriesLineStyle.array_list"/>
       </Property>
       <Property name="SeriesLineThickness" id="11173.SeriesLineThickness" number_of_elements="22">
-        <Element index="0" value="arc_length"/>
+        <Element index="0" value="Points_Magnitude"/>
         <Element index="1" value="2"/>
-        <Element index="2" value="T"/>
+        <Element index="2" value="Points_X"/>
         <Element index="3" value="2"/>
-        <Element index="4" value="U_X"/>
+        <Element index="4" value="Points_Y"/>
         <Element index="5" value="2"/>
-        <Element index="6" value="U_Y"/>
+        <Element index="6" value="Points_Z"/>
         <Element index="7" value="2"/>
-        <Element index="8" value="U_Z"/>
+        <Element index="8" value="T"/>
         <Element index="9" value="2"/>
         <Element index="10" value="U_Magnitude"/>
         <Element index="11" value="2"/>
-        <Element index="12" value="vtkValidPointMask"/>
+        <Element index="12" value="U_X"/>
         <Element index="13" value="2"/>
-        <Element index="14" value="Points_X"/>
+        <Element index="14" value="U_Y"/>
         <Element index="15" value="2"/>
-        <Element index="16" value="Points_Y"/>
+        <Element index="16" value="U_Z"/>
         <Element index="17" value="2"/>
-        <Element index="18" value="Points_Z"/>
+        <Element index="18" value="arc_length"/>
         <Element index="19" value="2"/>
-        <Element index="20" value="Points_Magnitude"/>
+        <Element index="20" value="vtkValidPointMask"/>
         <Element index="21" value="2"/>
-        <Domain name="array_list" id="11173.SeriesLineThickness.array_list">
-          <String text="arc_length"/>
-          <String text="T"/>
-          <String text="U_X"/>
-          <String text="U_Y"/>
-          <String text="U_Z"/>
-          <String text="U_Magnitude"/>
-          <String text="vtkValidPointMask"/>
-          <String text="Points_X"/>
-          <String text="Points_Y"/>
-          <String text="Points_Z"/>
-          <String text="Points_Magnitude"/>
-        </Domain>
+        <Domain name="array_list" id="11173.SeriesLineThickness.array_list"/>
       </Property>
       <Property name="SeriesMarkerSize" id="11173.SeriesMarkerSize" number_of_elements="22">
-        <Element index="0" value="arc_length"/>
+        <Element index="0" value="Points_Magnitude"/>
         <Element index="1" value="4"/>
-        <Element index="2" value="T"/>
+        <Element index="2" value="Points_X"/>
         <Element index="3" value="4"/>
-        <Element index="4" value="U_X"/>
+        <Element index="4" value="Points_Y"/>
         <Element index="5" value="4"/>
-        <Element index="6" value="U_Y"/>
+        <Element index="6" value="Points_Z"/>
         <Element index="7" value="4"/>
-        <Element index="8" value="U_Z"/>
+        <Element index="8" value="T"/>
         <Element index="9" value="4"/>
         <Element index="10" value="U_Magnitude"/>
         <Element index="11" value="4"/>
-        <Element index="12" value="vtkValidPointMask"/>
+        <Element index="12" value="U_X"/>
         <Element index="13" value="4"/>
-        <Element index="14" value="Points_X"/>
+        <Element index="14" value="U_Y"/>
         <Element index="15" value="4"/>
-        <Element index="16" value="Points_Y"/>
+        <Element index="16" value="U_Z"/>
         <Element index="17" value="4"/>
-        <Element index="18" value="Points_Z"/>
+        <Element index="18" value="arc_length"/>
         <Element index="19" value="4"/>
-        <Element index="20" value="Points_Magnitude"/>
+        <Element index="20" value="vtkValidPointMask"/>
         <Element index="21" value="4"/>
-        <Domain name="array_list" id="11173.SeriesMarkerSize.array_list">
-          <String text="arc_length"/>
-          <String text="T"/>
-          <String text="U_X"/>
-          <String text="U_Y"/>
-          <String text="U_Z"/>
-          <String text="U_Magnitude"/>
-          <String text="vtkValidPointMask"/>
-          <String text="Points_X"/>
-          <String text="Points_Y"/>
-          <String text="Points_Z"/>
-          <String text="Points_Magnitude"/>
-        </Domain>
+        <Domain name="array_list" id="11173.SeriesMarkerSize.array_list"/>
       </Property>
       <Property name="SeriesMarkerStyle" id="11173.SeriesMarkerStyle" number_of_elements="22">
-        <Element index="0" value="arc_length"/>
+        <Element index="0" value="Points_Magnitude"/>
         <Element index="1" value="0"/>
-        <Element index="2" value="T"/>
+        <Element index="2" value="Points_X"/>
         <Element index="3" value="0"/>
-        <Element index="4" value="U_X"/>
+        <Element index="4" value="Points_Y"/>
         <Element index="5" value="0"/>
-        <Element index="6" value="U_Y"/>
+        <Element index="6" value="Points_Z"/>
         <Element index="7" value="0"/>
-        <Element index="8" value="U_Z"/>
+        <Element index="8" value="T"/>
         <Element index="9" value="0"/>
         <Element index="10" value="U_Magnitude"/>
         <Element index="11" value="0"/>
-        <Element index="12" value="vtkValidPointMask"/>
+        <Element index="12" value="U_X"/>
         <Element index="13" value="0"/>
-        <Element index="14" value="Points_X"/>
+        <Element index="14" value="U_Y"/>
         <Element index="15" value="0"/>
-        <Element index="16" value="Points_Y"/>
+        <Element index="16" value="U_Z"/>
         <Element index="17" value="0"/>
-        <Element index="18" value="Points_Z"/>
+        <Element index="18" value="arc_length"/>
         <Element index="19" value="0"/>
-        <Element index="20" value="Points_Magnitude"/>
+        <Element index="20" value="vtkValidPointMask"/>
         <Element index="21" value="0"/>
-        <Domain name="array_list" id="11173.SeriesMarkerStyle.array_list">
-          <String text="arc_length"/>
-          <String text="T"/>
-          <String text="U_X"/>
-          <String text="U_Y"/>
-          <String text="U_Z"/>
-          <String text="U_Magnitude"/>
-          <String text="vtkValidPointMask"/>
-          <String text="Points_X"/>
-          <String text="Points_Y"/>
-          <String text="Points_Z"/>
-          <String text="Points_Magnitude"/>
-        </Domain>
+        <Domain name="array_list" id="11173.SeriesMarkerStyle.array_list"/>
       </Property>
       <Property name="SeriesPlotCorner" id="11173.SeriesPlotCorner" number_of_elements="22">
-        <Element index="0" value="arc_length"/>
+        <Element index="0" value="Points_Magnitude"/>
         <Element index="1" value="0"/>
-        <Element index="2" value="T"/>
+        <Element index="2" value="Points_X"/>
         <Element index="3" value="0"/>
-        <Element index="4" value="U_X"/>
+        <Element index="4" value="Points_Y"/>
         <Element index="5" value="0"/>
-        <Element index="6" value="U_Y"/>
+        <Element index="6" value="Points_Z"/>
         <Element index="7" value="0"/>
-        <Element index="8" value="U_Z"/>
+        <Element index="8" value="T"/>
         <Element index="9" value="0"/>
         <Element index="10" value="U_Magnitude"/>
         <Element index="11" value="0"/>
-        <Element index="12" value="vtkValidPointMask"/>
+        <Element index="12" value="U_X"/>
         <Element index="13" value="0"/>
-        <Element index="14" value="Points_X"/>
+        <Element index="14" value="U_Y"/>
         <Element index="15" value="0"/>
-        <Element index="16" value="Points_Y"/>
+        <Element index="16" value="U_Z"/>
         <Element index="17" value="0"/>
-        <Element index="18" value="Points_Z"/>
+        <Element index="18" value="arc_length"/>
         <Element index="19" value="0"/>
-        <Element index="20" value="Points_Magnitude"/>
+        <Element index="20" value="vtkValidPointMask"/>
         <Element index="21" value="0"/>
-        <Domain name="array_list" id="11173.SeriesPlotCorner.array_list">
-          <String text="arc_length"/>
-          <String text="T"/>
-          <String text="U_X"/>
-          <String text="U_Y"/>
-          <String text="U_Z"/>
-          <String text="U_Magnitude"/>
-          <String text="vtkValidPointMask"/>
-          <String text="Points_X"/>
-          <String text="Points_Y"/>
-          <String text="Points_Z"/>
-          <String text="Points_Magnitude"/>
-        </Domain>
+        <Domain name="array_list" id="11173.SeriesPlotCorner.array_list"/>
       </Property>
       <Property name="SeriesVisibility" id="11173.SeriesVisibility" number_of_elements="22">
         <Element index="0" value="arc_length"/>
@@ -4949,13 +4824,13 @@
         <Element index="2" value="T"/>
         <Element index="3" value="1"/>
         <Element index="4" value="U_X"/>
-        <Element index="5" value="0"/>
+        <Element index="5" value="1"/>
         <Element index="6" value="U_Y"/>
         <Element index="7" value="0"/>
         <Element index="8" value="U_Z"/>
         <Element index="9" value="0"/>
         <Element index="10" value="U_Magnitude"/>
-        <Element index="11" value="1"/>
+        <Element index="11" value="0"/>
         <Element index="12" value="vtkValidPointMask"/>
         <Element index="13" value="0"/>
         <Element index="14" value="Points_X"/>
@@ -4966,19 +4841,7 @@
         <Element index="19" value="0"/>
         <Element index="20" value="Points_Magnitude"/>
         <Element index="21" value="0"/>
-        <Domain name="array_list" id="11173.SeriesVisibility.array_list">
-          <String text="arc_length"/>
-          <String text="T"/>
-          <String text="U_X"/>
-          <String text="U_Y"/>
-          <String text="U_Z"/>
-          <String text="U_Magnitude"/>
-          <String text="vtkValidPointMask"/>
-          <String text="Points_X"/>
-          <String text="Points_Y"/>
-          <String text="Points_Z"/>
-          <String text="Points_Magnitude"/>
-        </Domain>
+        <Domain name="array_list" id="11173.SeriesVisibility.array_list"/>
       </Property>
       <Property name="UseIndexForXAxis" id="11173.UseIndexForXAxis" number_of_elements="1">
         <Element index="0" value="0"/>
@@ -4990,19 +4853,7 @@
       </Property>
       <Property name="XArrayName" id="11173.XArrayName" number_of_elements="1">
         <Element index="0" value="arc_length"/>
-        <Domain name="array_list" id="11173.XArrayName.array_list">
-          <String text="arc_length"/>
-          <String text="T"/>
-          <String text="U_X"/>
-          <String text="U_Y"/>
-          <String text="U_Z"/>
-          <String text="U_Magnitude"/>
-          <String text="vtkValidPointMask"/>
-          <String text="Points_X"/>
-          <String text="Points_Y"/>
-          <String text="Points_Z"/>
-          <String text="Points_Magnitude"/>
-        </Domain>
+        <Domain name="array_list" id="11173.XArrayName.array_list"/>
       </Property>
     </Proxy>
     <Proxy group="representations" type="ScalarBarWidgetRepresentation" id="10870" servers="21">
@@ -5963,7 +5814,7 @@
         <Domain name="bool" id="11185.LeftAxisLogScale.bool"/>
       </Property>
       <Property name="LeftAxisRangeMaximum" id="11185.LeftAxisRangeMaximum" number_of_elements="1">
-        <Element index="0" value="0.8"/>
+        <Element index="0" value="0.7000000000000001"/>
       </Property>
       <Property name="LeftAxisRangeMinimum" id="11185.LeftAxisRangeMinimum" number_of_elements="1">
         <Element index="0" value="0"/>
@@ -6046,8 +5897,8 @@
         </Domain>
       </Property>
       <Property name="LegendPosition" id="11185.LegendPosition" number_of_elements="2">
-        <Element index="0" value="686"/>
-        <Element index="1" value="272"/>
+        <Element index="0" value="1326"/>
+        <Element index="1" value="300"/>
       </Property>
       <Property name="LegendSymbolWidth" id="11185.LegendSymbolWidth" number_of_elements="1">
         <Element index="0" value="25"/>
@@ -6327,8 +6178,8 @@
         <Domain name="bool" id="11185.UseCache.bool"/>
       </Property>
       <Property name="ViewSize" id="11185.ViewSize" number_of_elements="2">
-        <Element index="0" value="818"/>
-        <Element index="1" value="331"/>
+        <Element index="0" value="1458"/>
+        <Element index="1" value="359"/>
       </Property>
       <Property name="ViewTime" id="11185.ViewTime" number_of_elements="1">
         <Element index="0" value="2"/>
@@ -6777,12 +6628,10 @@
         <Element index="0" value="1"/>
         <Domain name="range" id="11161.ValueRenderingMode.range"/>
       </Property>
-      <Property name="ValueRenderingModeGet" id="11161.ValueRenderingModeGet" number_of_elements="1">
-        <Element index="0" value="2"/>
-      </Property>
+      <Property name="ValueRenderingModeGet" id="11161.ValueRenderingModeGet"/>
       <Property name="ViewSize" id="11161.ViewSize" number_of_elements="2">
-        <Element index="0" value="818"/>
-        <Element index="1" value="332"/>
+        <Element index="0" value="1458"/>
+        <Element index="1" value="360"/>
       </Property>
       <Property name="ViewTime" id="11161.ViewTime" number_of_elements="1">
         <Element index="0" value="2"/>
