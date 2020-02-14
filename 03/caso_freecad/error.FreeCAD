@@ -1,0 +1,27 @@
+During initialization the error "inconsistent use of tabs and spaces in indentation (<string>, line 52)" occurred in /home/guillermo/.FreeCAD/Mod/cura_engine/InitGui.py
+Please look into the log file for further information
+connect failed: No existe el fichero o el directorio
+Traceback (most recent call last):
+  File "/home/guillermo/.FreeCAD/Mod/CfdOF/CfdMesh.py", line 162, in setEdit
+    import _TaskPanelCfdMesh
+  File "/home/guillermo/.FreeCAD/Mod/CfdOF/_TaskPanelCfdMesh.py", line 35, in <module>
+    import CfdMeshTools
+  File "/home/guillermo/.FreeCAD/Mod/CfdOF/CfdMeshTools.py", line 32, in <module>
+    import Fem
+<class 'ImportError'>: libvtkFiltersVerdict-8.2.so.1: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio
+libvtkFiltersVerdict-8.2.so.1: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio
+Traceback (most recent call last):
+  File "<string>", line 46, in Initialize
+
+FreeCAD 0.19, Libs: 0.19R19541 (Git)
+© Juergen Riegel, Werner Mayer, Yorik van Havre and others 2001-2020
+FreeCAD is free and open-source software licensed under the terms of LGPL2+ license.
+FreeCAD wouldn't be possible without FreeCAD community.
+  #####                 ####  ###   ####  
+  #                    #      # #   #   # 
+  #     ##  #### ####  #     #   #  #   # 
+  ####  # # #  # #  #  #     #####  #   # 
+  #     #   #### ####  #    #     # #   # 
+  #     #   #    #     #    #     # #   #  ##  ##  ##
+  #     #   #### ####   ### #     # ####   ##  ##  ##
+
