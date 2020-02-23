@@ -1,21 +1,14 @@
 #!/bin/sh
 
 # Resetear caso completo
-foamListTimes -rm
+foamListTimes -processor -rm
 rm -r postProcessing
 rm -r logs
-#rm -r constant/polyMesh
+rm log.scalarTransportFoam
 
-# Crear malla original (blockMeshDict)
-#blockMesh
-# Hacerla axisimetrica (extrudeMeshDict)
-#extrudeMesh
-# Reparar caras rotas de la malla (collapseDict)
-#collapseEdges -overwrite
-# Simular y guardar archivos log
 mpirun -n 4 scalarTransportFoam -parallel | tee -a log.scalarTransportFoam
 foamLog log.scalarTransportFoam
 
-postProcess -func 'patchAverage'
+mpirun -n 4 postProcess -parallel -func 'patchAverage'
 # gnuplot - Grafica simulacion simpleFoam
 gnuplot --persist graficar_conc.gp

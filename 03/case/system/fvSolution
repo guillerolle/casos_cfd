@@ -20,8 +20,8 @@ solvers
     p
     {
         solver          GAMG;
-        tolerance       1e-9;
-        relTol          0.01;
+        tolerance       1e-10;
+        relTol          0.001;
         smoother        GaussSeidel;
     }
 
@@ -29,8 +29,8 @@ solvers
     {
         solver          smoothSolver;
         smoother        symGaussSeidel;
-        tolerance       1e-8;
-        relTol          0.01;
+        tolerance       1e-9;
+        relTol          0.001;
     }
 }
 

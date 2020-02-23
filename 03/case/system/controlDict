@@ -16,7 +16,7 @@ FoamFile
 
 application     simpleFoam;
 
-startFrom       startTime;
+startFrom       latestTime;
 
 startTime       0;
 
@@ -24,7 +24,7 @@ stopAt          endTime;
 
 deltaT          1;
 
-endTime         2000;
+endTime         4000;
 
 writeControl    timeStep;
 
