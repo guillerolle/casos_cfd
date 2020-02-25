@@ -75,9 +75,8 @@ log.*
 **/constant/polyMesh/surfaceIndex*
 
 # ignorar archivos .stl (en general provenientes de FreeCAD)
-!**/*.stl
 **/constant/triSurface
-
+!*.stl
 
 
 # function object and post-processing data
