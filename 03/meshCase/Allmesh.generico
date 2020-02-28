@@ -12,12 +12,12 @@ runCommand()
 }
 
 # Unset and source bashrc
-if [ -f "/home/guillermo/OpenFOAM/OpenFOAM-plus/etc/config/unset.sh" ]; then  # for OF < 4
-   source "/home/guillermo/OpenFOAM/OpenFOAM-plus/etc/config/unset.sh" 2> /dev/null
-else
-   source "/home/guillermo/OpenFOAM/OpenFOAM-plus/etc/config.sh/unset" 2> /dev/null
-fi
-source "/opt/OpenFOAM/OpenFOAM-plus/etc/bashrc"
+#if [ -f "/home/guillermo/OpenFOAM/OpenFOAM-plus/etc/config/unset.sh" ]; then  # for OF < 4
+#   source "/home/guillermo/OpenFOAM/OpenFOAM-plus/etc/config/unset.sh" 2> /dev/null
+#else
+#   source "/home/guillermo/OpenFOAM/OpenFOAM-plus/etc/config.sh/unset" 2> /dev/null
+#fi
+#source "/opt/OpenFOAM/OpenFOAM-plus/etc/bashrc"
 
 runCommand blockMesh
 runCommand surfaceFeatureExtract
