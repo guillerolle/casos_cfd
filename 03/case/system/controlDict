@@ -24,7 +24,7 @@ stopAt          endTime;
 
 deltaT          1;
 
-endTime         4000;
+endTime         2000;
 
 writeControl    timeStep;
 
