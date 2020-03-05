@@ -10,13 +10,38 @@ FoamFile
     version     2.0;
     format      ascii;
     class       dictionary;
-    object      decomposeParDict;
+    object      changeDictionaryDict;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-numberOfSubdomains  2;
+boundary
+{
+    inlet_one
+    {
+        type        patch;
+    }
 
-method              scotch;
+    inlet_two
+    {
+        type        patch;
+    }
 
+    outlet
+    {
+        type        patch;
+    }
+
+    wall
+    {
+        type        wall;
+    }
+
+
+    "defaultFaces"
+    {
+        type        wall;
+    }
+
+}
 
 // ************************************************************************* //

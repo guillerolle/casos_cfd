@@ -10,13 +10,40 @@ FoamFile
     version     2.0;
     format      ascii;
     class       dictionary;
-    object      decomposeParDict;
+    object      controlDict;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-numberOfSubdomains  2;
+application     pimpleFoam;
 
-method              scotch;
+startFrom       startTime;
 
+startTime       0;
+
+stopAt          endTime;
+
+deltaT          0.001;
+
+endTime         2;
+
+writeControl    timeStep;
+
+writeInterval   5;
+
+purgeWrite      0;
+
+
+writeFormat     ascii;
+
+writePrecision  8;
+
+
+runTimeModifiable true;
+
+libs
+(
+    // Needed for availability of porous baffle boundary in potentialFoam
+    "libturbulenceModels.so"
+);
 
 // ************************************************************************* //
