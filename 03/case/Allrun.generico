@@ -33,5 +33,5 @@ runCommand createPatch -overwrite
 
 # Run application in parallel
 runCommand decomposePar -force
-runCommand mpirun -n 2 simpleFoam -parallel
+runCommand mpirun -n 4 simpleFoam -parallel
 
